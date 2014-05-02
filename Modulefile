@@ -1,0 +1,10 @@
+name 'ghoneycutt-ad_schema'
+version '0.1.0'
+source 'git://github.com/ghoneycutt/puppet-module-ad_schema.git'
+author 'ghoneycutt'
+license 'Apache License, Version 2.0'
+summary 'Manage schema for Active Directory'
+description 'Manage schema for Active Directory'
+project_page 'https://github.com/ghoneycutt/puppet-module-ad_schema'
+
+dependency 'puppetlabs/stdlib', '>= 4.1.0'
