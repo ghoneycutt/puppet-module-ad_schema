@@ -3,5 +3,8 @@ fixtures:
     stdlib:
       repo: 'git://github.com/puppetlabs/puppetlabs-stdlib.git'
       ref: '4.1.0'
+    windows_domain_controller:
+      repo: 'git://github.com/martezr/puppet-windows_domain_controller.git'
+      ref: '0.1.3'
   symlinks:
     ad_schema: "#{source_dir}"

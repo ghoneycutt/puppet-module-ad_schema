@@ -8,3 +8,4 @@ description 'Manage schema for Active Directory'
 project_page 'https://github.com/ghoneycutt/puppet-module-ad_schema'
 
 dependency 'puppetlabs/stdlib', '>= 4.1.0'
+dependency 'martezr/windows_domain_controller', '>= 0.1.3'
